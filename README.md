@@ -48,11 +48,11 @@ This **Task Management Application** allows authenticated users to manage tasks 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/task-management-frontend.git
+   git clone https://github.com/salman679/Task-Managment.git
    ```
 2. Navigate to the project folder:
    ```bash
-   cd task-management-frontend
+   cd Task-Managment
    ```
 3. Install dependencies:
    ```bash
