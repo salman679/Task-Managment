@@ -1,4 +1,4 @@
-import bannerImg from "../../../assets/pngtree-dynamic-clipboard-and-checklist-icon-for-project-planning-task-management-green-png-image_14523077.png";
+import bannerImg from "../../../assets/taskboard.png";
 
 const Banner = () => {
   return (
