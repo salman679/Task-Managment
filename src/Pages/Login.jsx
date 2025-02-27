@@ -17,7 +17,10 @@ const Login = () => {
         userEmail: user?.email,
         displayName: user?.displayName,
       };
-      const res = await axios.post("http://localhost:5000/users", userInfo);
+      const res = await axios.post(
+        `${import.meta.env.VITE_api}/users`,
+        userInfo
+      );
       console.log(res);
     } catch (error) {
       console.error("Google Sign-In failed:", error.message);
