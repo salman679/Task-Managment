@@ -1,13 +1,13 @@
-import bannerImg from "../../../assets/frame.png";
+import bannerImg from "../../../assets/pngtree-dynamic-clipboard-and-checklist-icon-for-project-planning-task-management-green-png-image_14523077.png";
 
 const Banner = () => {
   return (
     <section className="w-11/12 max-w-7xl lg:w-9/12 mx-auto my-20">
       <div className="flex items-center justify-between flex-col md:flex-row">
         {/* Image Section */}
-        <div className="flex justify-center md:order-2">
+        <div className="flex justify-center  md:order-2">
           <img
-            className="w-80 "
+            className=""
             src={bannerImg}
             width="326"
             height="290"
@@ -17,7 +17,7 @@ const Banner = () => {
 
         {/* Text Section */}
         <div className="text-center md:text-left">
-          <h1 className="mb-4 text-blue-500 text-4xl font-bold lg:text-5xl">
+          <h1 className="mb-4 text-gray-800 text-4xl font-bold lg:text-5xl">
             Task management
           </h1>
           <p className="mb-6 text-lg text-gray-600">
@@ -25,7 +25,7 @@ const Banner = () => {
             Your Personal Productivity <br /> Ally for Seamless Goal Achievement
             and Stress-Free Task Management.
           </p>
-          <button className="rounded-full bg-blue-500 px-6 py-3 text-lg font-semibold text-white transition-all duration-300 hover:bg-blue-600">
+          <button className="rounded-full bg-gray-800 px-6 py-3 text-lg font-semibold text-white transition-all duration-300 hover:bg-gray-600">
             Get Started
           </button>
         </div>

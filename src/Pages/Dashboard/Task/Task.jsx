@@ -150,7 +150,7 @@ const Task = () => {
             ))}
           </select>
           <button
-            className="rounded-lg bg-blue-500 px-5 py-3 text-white"
+            className="rounded-lg bg-gray-800 px-5 py-3 text-white"
             onClick={addTask}
           >
             Add
