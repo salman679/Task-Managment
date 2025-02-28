@@ -136,6 +136,17 @@ const Task = () => {
           value={description}
           onChange={(e) => setDescription(e.target.value)}
         />
+        <select
+          className="rounded-lg border border-gray-300 p-3"
+          value={category}
+          onChange={(e) => setCategory(e.target.value)}
+        >
+          {categories.map((cat) => (
+            <option key={cat} value={cat}>
+              {cat}
+            </option>
+          ))}
+        </select>
         <button
           className="rounded-lg bg-gray-800 px-5 py-3 text-white"
           onClick={addTask}
