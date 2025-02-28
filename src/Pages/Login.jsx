@@ -17,6 +17,7 @@ const Login = () => {
         userEmail: user?.email,
         displayName: user?.displayName,
       };
+
       const res = await axios.post(
         `${import.meta.env.VITE_api}/users`,
         userInfo

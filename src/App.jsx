@@ -10,9 +10,7 @@ const App = () => {
   if (loading) {
     return (
       <div className="flex justify-center items-center min-h-screen">
-        <span className="loading loading-spinner text-primary"></span>
-        <span className="loading loading-spinner text-secondary"></span>
-        <span className="loading loading-spinner text-accent"></span>
+        <span className="loading loading-dots loading-lg"></span>
       </div>
     );
   }
